@@ -1,6 +1,9 @@
 # hello_world_cd
 
-A new Flutter project.
+Testing Continuous Deployment in Flutter.
+
+An approved pull request to main should generate a release that includes the new apk
+files for this application
 
 ## Getting Started
 
