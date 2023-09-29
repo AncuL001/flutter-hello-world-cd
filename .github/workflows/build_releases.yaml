@@ -37,7 +37,7 @@ jobs:
       - name: Clean up build artifacts
         run: |
           set -e
-          mv build/app/outputs/flutter-apk/app-debug.apk flutter-hello-world-cd-${{ env.VERSION_TAG }}.apk
+          mv build/app/outputs/flutter-apk/app-release.apk flutter-hello-world-cd-${{ env.VERSION_TAG }}.apk
 
       - name: Create Release
         uses: softprops/action-gh-release@v1
